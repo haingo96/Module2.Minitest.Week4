@@ -1,4 +1,4 @@
 public interface IPhone {
-    void searchPhone(String name);
+    String searchPhone(String name);
     void sort();
 }

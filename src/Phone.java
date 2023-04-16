@@ -1,6 +1,6 @@
 public abstract class Phone {
-    abstract void display(Type type);
-    abstract void insertPhone(Contact contact);
-    abstract void removePhone(String name);
-    abstract void updatePhone(String name, String newPhone);
+    protected abstract void display(String typeName);
+    protected abstract void insertPhone(Contact contact);
+    protected abstract void removePhone(String name);
+    protected abstract void updatePhone(String name, String newPhone);
 }
