@@ -1,0 +1,2 @@
+public class ReadFile<E> {
+}
